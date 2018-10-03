@@ -1,5 +1,29 @@
 public class Boat {
 
+	public Boat(double initialX, double initialY) {
+
+	}
+
+	public double getX() {
+
+	}
+
+	public double getY() {
+
+	}
+
+	public double getDirection() {
+
+	}
+
+	public void turn(double degrees) {
+
+	}
+
+	public void move(double distance) {
+		
+	}
+
 	public static void main(String[] args) {
 		Boat b = new Boat(0, 0);
 		b.move(10);
